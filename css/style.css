@@ -1,0 +1,62 @@
+
+body {font-family: 'M PLUS 1 Code', sans-serif;}
+
+header {background-color: white;}
+
+footer {background-color: rgb(189, 106, 185); text-align: center;}
+
+h2 {padding: 2%; text-align: center; margin-top: 20px;}
+
+.bloque {background-color: yellow; width: 50%; padding: 1%; margin-left: 32%; margin-top: -4%;}
+
+
+.textoh2 { position: relative;}
+
+.bg1 {background-color: rgb(189, 106, 185); border-color: rgb(189, 106, 185) ;}
+
+.bg1:hover {background-color:black; border-color: black;}
+
+.bg2 {border: none; }
+
+.textoh3 {padding: 3%; text-align: center}
+
+.ondaimg {width: 30%; padding: 2%; box-sizing: border-box; margin-left: 33%;
+    animation-name: mover1;
+    animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-direction:alternate;
+        }
+
+
+        @keyframes mover1 {
+            0%{
+                transform: translateX(-100px);
+                opacity: 100%;
+            }
+            100%{
+                transform: translateX(120px);
+                opacity: 0;
+            }
+        }
+
+
+.mover {transition-timing-function: ease;
+ transition-property: all; transition: 1s;}
+.mover :hover {transform: scale(1.2, 1.2);}
+             
+.bg3 {background-color: rgb(189, 106, 185); width: 60%; margin-left: 40%; padding: 0,5%; font-size: 25px;}      
+
+.bg4 {background-color: yellow; width: 60%; padding: 0,5%; margin-right: 40%;font-size: 25px; text-align: end;}
+
+.bg5 {background-color: rgba(228, 207, 89, 0.952);}
+
+
+
+
+
+
+
+
+
+
